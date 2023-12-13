@@ -37,7 +37,7 @@ export const Login = () => {
         </> :
             <>
                 <div className='LoginScreen'>
-                    <img src={Logo} alt="LogoAdotai" className='LogoAdotai' />
+                    <img src={Logo} alt="LogoAdotai" className='LogoAdotai' onClick={() => {setRegister(false)}}/>
                     <div className='LoginScreen_inputs'>
                         <h1 className='margot title'>LOGIN</h1>
                         <input type="text" className='input' placeholder='E-mail' />
