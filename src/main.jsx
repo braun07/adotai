@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './main.scss';
 import { Login } from './Login/Login';
-import { Register } from './Register/Register';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { RedirectComponent } from './RedirectComponent';
 
