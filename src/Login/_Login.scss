@@ -1,0 +1,109 @@
+.LoginScreen {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .LogoAdotai {
+        width: 70%;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .title {
+        color: $gray;
+    }
+
+    &_inputs {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 20px;
+
+        .input {
+            width: 100%;
+            padding: 15px 10px;
+            background: $gray-input;
+            border: 0px solid transparent;
+            border-radius: 10px;
+            font-size: 17pt;
+            
+            &::placeholder {
+                color: lighten($gray, 40%);
+            }
+        }
+    }
+
+    a {
+        color: lighten($gray, 10%);
+        text-decoration: underline;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    &_BTN {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        button {
+            width: 48%;
+            padding: 10px 3px;
+            border-radius: 10px;
+            border: 2px solid transparent;
+            font-size: 17pt;
+            cursor: pointer;
+        }
+
+        .register {
+            border: 2px solid $red;
+            background: white;
+            color: $red;
+
+            &:hover {
+                background: $red;
+                color: white;
+                border: 2px solid white;
+            }
+        }
+
+        .login {
+            background: $red;
+            color: white;
+
+            &:hover {
+                background: white;
+                color: $red;
+                border: 2px solid $red;
+            }
+        }
+    }
+
+    &_Social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        font-size: 20px;
+
+        .LogosIMAGE {
+            display: flex;
+            gap: 1rem;
+            margin-top: 10px;
+
+            img {
+                width: auto;
+                height: 25px;
+            }
+        }
+    }
+}

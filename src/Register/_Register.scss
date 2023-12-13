@@ -1,0 +1,17 @@
+.LoginScreen {
+    .next {
+        margin-top: 20px;
+        background: $red;
+        border: 0px solid transparent;
+        padding: 10px 12px;
+        border-radius: 999rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -20px;
+
+        img {
+            width: 20px;
+        }
+    }
+}
