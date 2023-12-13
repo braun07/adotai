@@ -13,6 +13,7 @@ export const Login = () => {
     return (
         register ? <>
             <div className='LoginScreen'>
+                <button onClick={() => { setRegister(false) }} className='btn_back'><img src={ArrowRight} /></button>
                 <img src={Logo} alt="LogoAdotai" className='LogoAdotai' />
                 <div className='LoginScreen_inputs'>
                     <h1 className='margot title'>CADASTRO</h1>
@@ -37,7 +38,7 @@ export const Login = () => {
         </> :
             <>
                 <div className='LoginScreen'>
-                    <img src={Logo} alt="LogoAdotai" className='LogoAdotai' onClick={() => {setRegister(false)}}/>
+                    <img src={Logo} alt="LogoAdotai" className='LogoAdotai' />
                     <div className='LoginScreen_inputs'>
                         <h1 className='margot title'>LOGIN</h1>
                         <input type="text" className='input' placeholder='E-mail' />
