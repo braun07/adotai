@@ -1,8 +1,4 @@
-# React + Vite
+<h1>Adotai é uma ideia de webapp para adoções de animais no estilo tinder</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Apenas a introdução do fornt-end foi desenvolvido e idealizado por mim, para o projeto do @leoseelig</p>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
